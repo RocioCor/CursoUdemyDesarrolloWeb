@@ -1,7 +1,8 @@
 :root {
     --blanco: #ffffff;
-    --negro: #2121;
-    --violeta: #7e62ab;
+    --negro: rgb(0, 0, 0);
+    --violeta: #c87bc3;
+    --claro: #dec7f1;
 
 }
 
@@ -27,9 +28,46 @@ span {
 }
 
 .contenedor {
-    width: 120rem;
+    width: 100rem;
     margin: 0 auto;
 }
-.nav-bg{
+
+.nav-bg {
     background-color: var(--violeta);
 }
+
+.navegacion-principal {
+    display: flex;
+      flex-direction: column;
+     
+      font-size: 2rem;
+  
+}
+@media (min-width: 768px){
+.navegacion-principal {
+    flex-direction:row;
+     justify-content: space-between;
+}
+};
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color:var(--claro);
+    color: var(--negro);
+}
+.fechaTarea {
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 4px;
+  }
+  
+.hero {
+background-image: url(../image/hero.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+};
