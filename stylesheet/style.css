@@ -66,8 +66,8 @@ span {
     margin-top: 4px;
   }
   
-.hero {
-background-image: url(../image/hero.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-};
+  .hero {
+    background-image: url(../image/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    };
